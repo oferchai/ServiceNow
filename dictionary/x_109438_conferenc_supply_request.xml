@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Supply Request" max_length="40" name="x_109438_conferenc_supply_request" type="collection">
+        <element label="Conference" max_length="32" name="conference" reference="x_109438_conferenc_conference" type="reference"/>
+        <element label="Cost" max_length="20" name="cost" type="currency"/>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element choice="1" label="Type" max_length="40" name="type" type="choice">
+            <choice>
+                <element label="Refreshments" sequence="0" value="Refreshments"/>
+                <element label="Printed materials" sequence="1" value="Printed materials"/>
+                <element label="AV equipment" sequence="2" value="AV equipment"/>
+                <element label="Mac adaptors" sequence="3" value="Mac adaptors"/>
+            </choice>
+        </element>
+    </element>
+</database>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_email_template">
+    <sysevent_email_template action="INSERT_OR_UPDATE">
+        <collection>x_109438_conferenc_participant</collection>
+        <email_layout display_value="Demo Layout - Dark">f03ea9717f1312007f005212bdfa919b</email_layout>
+        <message/>
+        <message_html><![CDATA[<p>Dear ${first_name}</p>
+<p>&nbsp;</p>
+<p>Thank you.</p>]]></message_html>
+        <message_list/>
+        <message_text/>
+        <name>Conference registration</name>
+        <sms_alternate/>
+        <subject>Thank you for registration to ${conference.name}</subject>
+        <sys_class_name>sysevent_email_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-03 11:11:04</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>f3c7cfb0db623200b1897befbf9619bd</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Conference registration</sys_name>
+        <sys_package display_value="Conference" source="x_109438_conferenc">49a6a6f0db223200b1897befbf9619f4</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="Conference">49a6a6f0db223200b1897befbf9619f4</sys_scope>
+        <sys_update_name>sysevent_email_template_f3c7cfb0db623200b1897befbf9619bd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-03 11:11:39</sys_updated_on>
+        <sys_version>2</sys_version>
+    </sysevent_email_template>
+</record_update>

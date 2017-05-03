@@ -2,8 +2,14 @@
 <database>
     <element label="Conference" max_length="40" name="x_109438_conferenc_conference" type="collection">
         <element label="Ends at" max_length="40" name="ends_at" type="glide_date_time"/>
-        <element choice="1" label="Meeting room" max_length="40" name="meeting_room" type="choice">
-            <choice/>
+        <element choice="3" default="Milky way" label="Meeting room" mandatory="true" max_length="40" name="meeting_room" type="choice">
+            <choice>
+                <element label="Milky way" sequence="0" value="Milky way"/>
+                <element label="Phoenix" sequence="1" value="Phoenix"/>
+                <element label="Compass" sequence="2" value="Compass"/>
+                <element label="North star" sequence="3" value="North star"/>
+                <element label="South cross" sequence="4" value="South cross"/>
+            </choice>
         </element>
         <element display="true" label="Name" max_length="40" name="name" type="string"/>
         <element label="Presentor" max_length="32" name="presentor" reference="sys_user" type="reference"/>

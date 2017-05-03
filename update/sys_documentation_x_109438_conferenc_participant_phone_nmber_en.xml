@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="phone_nmber" label="Phone nmber" language="en" table="x_109438_conferenc_participant">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>phone_nmber</element>
+            <help/>
+            <hint/>
+            <label>Phone nmber</label>
+            <language>en</language>
+            <name>x_109438_conferenc_participant</name>
+            <plural>Phone nmbers</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-03 11:04:38</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_id>0d070bb0db623200b1897befbf961915</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Phone nmber</sys_name>
+            <sys_package display_value="Conference" source="x_109438_conferenc">49a6a6f0db223200b1897befbf9619f4</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="Conference">49a6a6f0db223200b1897befbf9619f4</sys_scope>
+            <sys_update_name>sys_documentation_x_109438_conferenc_participant_phone_nmber_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-03 11:04:38</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
