@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Conference" max_length="40" name="x_109438_conferenc_conference" type="collection">
+        <element label="Ends at" max_length="40" name="ends_at" type="glide_date_time"/>
+        <element choice="1" label="Meeting room" max_length="40" name="meeting_room" type="choice">
+            <choice/>
+        </element>
+        <element display="true" label="Name" max_length="40" name="name" type="string"/>
+        <element label="Presentor" max_length="32" name="presentor" reference="sys_user" type="reference"/>
+        <element label="Starts at" max_length="40" name="starts_at" type="glide_date_time"/>
+        <index name="index">
+            <element name="presentor"/>
+        </index>
+    </element>
+</database>
